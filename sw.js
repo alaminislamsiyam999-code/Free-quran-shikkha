@@ -1,4 +1,4 @@
-const CACHE = 'quran-shikkha-v2';
+const CACHE = 'quran-shikkha-v3';
 const SHELL = [
   './',
   './index.html',
@@ -9,6 +9,8 @@ const SHELL = [
   './js/core/router.js',
   './js/pages/home.js',
   './js/pages/pending.js'
+    './js/pages/alphabet.js',
+  './js/core/audio.js',
 ];
 
 self.addEventListener('install', (event) => {
