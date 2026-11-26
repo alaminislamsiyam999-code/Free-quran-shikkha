@@ -1,0 +1,14 @@
+import { register, start } from './core/router.js';
+import { renderHome } from './pages/home.js';
+import { pending } from './pages/pending.js';
+
+register('/', 'কোরআন শিক্ষা', renderHome);
+register('/alphabet', 'আরবি বর্ণমালা', pending('আরবি বর্ণমালা'));
+register('/quran', 'কোরআন শরিফ', pending('কোরআন শরিফ'));
+register('/progress', 'শিক্ষার অগ্রগতি', pending('শিক্ষার অগ্রগতি'));
+
+start(document.getElementById('app'), document.getElementById('page-title'));
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
