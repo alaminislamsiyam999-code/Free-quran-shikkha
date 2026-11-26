@@ -1,6 +1,7 @@
 import { register, start } from './core/router.js';
 import { renderHome } from './pages/home.js';
 import { renderAlphabet } from './pages/alphabet.js';
+import { pending } from './pages/pending.js';
 
 register('/', 'কোরআন শিক্ষা', renderHome);
 register('/alphabet', 'আরবি বর্ণমালা', renderAlphabet);
