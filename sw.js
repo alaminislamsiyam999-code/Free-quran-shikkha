@@ -7,10 +7,10 @@ const SHELL = [
   './css/base.css',
   './js/main.js',
   './js/core/router.js',
-  './js/pages/home.js',
-  './js/pages/pending.js'
-    './js/pages/alphabet.js',
   './js/core/audio.js',
+  './js/pages/home.js',
+  './js/pages/pending.js',
+  './js/pages/alphabet.js'
 ];
 
 self.addEventListener('install', (event) => {
