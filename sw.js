@@ -1,4 +1,4 @@
-const CACHE = 'quran-shikkha-v3';
+const CACHE = 'quran-shikkha-v4';
 const SHELL = [
   './',
   './index.html',
