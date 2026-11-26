@@ -125,3 +125,60 @@ body {
   font-weight: 700;
   margin-bottom: 8px;
 }
+.notice {
+  background: #fff7dc;
+  color: #5a4500;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+.letter-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.letter-tile {
+  font-family: "Noto Naskh Arabic", serif;
+  font-size: 1.7rem;
+  height: 56px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--emerald);
+  cursor: pointer;
+}
+.letter-tile:active { background: var(--emerald); color: #fff; }
+.letter-card { text-align: center; }
+.big-letter {
+  font-family: "Noto Naskh Arabic", serif;
+  font-size: 5rem;
+  line-height: 1.2;
+  color: var(--emerald);
+}
+.btn {
+  background: var(--emerald);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  margin: 8px 0 16px;
+  cursor: pointer;
+}
+.word-list { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.word-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 110px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+}
+.word-ar { font-family: "Noto Naskh Arabic", serif; font-size: 1.6rem; }
+.muted { color: var(--muted); }
